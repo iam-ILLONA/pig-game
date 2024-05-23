@@ -197,13 +197,14 @@ main {
     max-width: 38rem;
     position: relative;
     height: auto;
-    margin-top: 20rem;
+    margin-top: 25rem;
     margin-bottom: 10rem;
   }
 
   section {
     display: grid;
     grid-template-columns: 1fr;
+    max-width: auto;
   }
 
   .dice {
@@ -216,13 +217,13 @@ main {
   }
 
   .btn--new {
-    top: 2rem;
+    top: 3rem;
   }
   .btn--roll {
     top: 39.3rem;
     display: flex;
     left: 80%;
-    padding: 0.7rem 2.5rem;
+
     border-radius: 50rem;
     font-size: 0.8rem;
   }
@@ -230,7 +231,7 @@ main {
     top: 46.1rem;
     display: flex;
     left: 80%;
-    padding: 0.7rem 2.5rem;
+
     border-radius: 60rem;
     font-size: 0.8rem;
   }
